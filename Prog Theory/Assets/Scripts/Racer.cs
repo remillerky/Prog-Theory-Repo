@@ -13,12 +13,12 @@ public class Racer : MonoBehaviour
     public float speedEnhancer =3.0f; // initialize 3 for player & 0 for others
 }
 
-public class Cat : Racer
+public class Cat : Racer //INHERITANCE
 {
-    //INHERITANCE of size, speedRange, speedValue, & animalColor
+    
 }
 
-public class Dog : Racer
+public class Dog : Racer //INHERITANCE
 {
     public void Reset() //POLYMORPHISM
     {
@@ -28,7 +28,7 @@ public class Dog : Racer
     }
 }
 
-public class Horse : Racer
+public class Horse : Racer //INHERITANCE
 {
     public void Reset() //POLOYMORPHISM
     {
